@@ -1,16 +1,104 @@
-# React + Vite
+# Three.js Learning 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal repository for learning **Three.js** from the ground up using **React** and **Vite**.
 
-Currently, two official plugins are available:
+The goal of this project is to understand the fundamentals of 3D graphics on the web by building small experiments and interactive scenes while gradually exploring more advanced concepts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Three.js
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Current Project Structure
+
+```text
+threejsproject/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🎯 Learning Objectives
+
+- Scene
+- Camera
+- Renderer
+- Geometry
+- Meshes
+- Materials
+- Transformations
+- Lighting
+- Textures
+- Shadows
+- Animations
+- Cameras
+- 3D Models
+- Environment Maps
+- Particle Systems
+- Shaders
+- Physics
+- Performance Optimization
+
+---
+
+## 🚀 Getting Started
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📖 Learning Progress
+
+- [x] Project Setup
+- [x] First Scene
+- [x] Rotating Cube
+- [ ] Cameras
+- [ ] Materials
+- [ ] Lights
+- [ ] Textures
+- [ ] Shadows
+- [ ] Animations
+- [ ] Loading Models
+- [ ] Environment Maps
+- [ ] Particles
+- [ ] Shaders
+
+---
+
+## 📌 Notes
+
+This repository serves as a personal learning journal where each commit represents progress toward mastering Three.js and modern 3D web development.
